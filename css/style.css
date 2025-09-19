@@ -1,0 +1,46 @@
+/*FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Delius", cursive;
+    background-color: rgb(233, 151, 182);
+}
+/* HEADER */
+header { 
+    background-color: rgb(190, 76, 143);
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN */
+main{
+     color: rgb(39, 37, 38);
+}
+.descripcion{
+        text-align: center;
+    }
+main section h1{
+    font-size: 60px;
+}
+.tipo{
+    color: black;
+    text-align: center;
+}
+.politica{
+    text-align: center;
+}
+/* FOOTER */
