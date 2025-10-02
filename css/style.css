@@ -3,58 +3,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
 /*RESET*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Delius", cursive;
-    background-color: rgb(250, 160, 195);
 }
+
 /* HEADER */
 
-header{
+header {
     background-color: rgb(182, 15, 112);
     color: white;
     border: 2px solid black;
-    
+
 }
-header nav a{
+
+header nav a {
     color: white;
     text-decoration: none;
     font-size: 30px;
 }
-.nav-link{
+
+.nav-link {
     color: white;
 
 }
-.btn{
+
+.btn {
     color: white;
     border: 2px solid white;
 }
+
 /* MAIN INDEX*/
-main{
-     color: rgb(39, 37, 38);
+main {
+    color: rgb(39, 37, 38);
 }
-.descripcion{
-        text-align: center;
-        color:black;
-    }
-.descripcion h1{
+
+.descripcion {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.descripcion h1 {
     font-size: 80px;
     display: inline-block;
     padding-top: 30 px;
-    text-decoration:underline;
+    text-decoration: underline;
 
 }
-.descripcion p{
-    font-size: 25px;;
+
+.descripcion p {
+    font-size: 25px;
     border: 4px solid rgb(182, 15, 112);
     margin: 30px;
 }
-.ofertas h2{
+
+.sobre-nosotros {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre-nosotros div {
+    text-align: center;
+}
+
+.sobre-nosotros h2 {
+    font-size: 50px;
+}
+
+.sobre-nosotros p {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.sobre-nosotros img {
+    width: 350px;
+    height: 400px;
+}
+
+.sobre-nosotros a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(182, 15, 112);
+
+}
+
+.ofertas h2 {
     background-color: rgb(182, 15, 112);
     border: 2px solid black;
     color: white;
@@ -63,36 +111,54 @@ main{
     text-align: center;
     font-size: 25px;
 }
-.ofertas-principales{
+
+.ofertas-principales {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
-    
+
 }
-.ofertas-principales div{
+
+.ofertas-principales div {
     font-size: 20px;
     border: 1px solid rgb(182, 15, 112);
     display: inline-block;
     margin: 20px;
     padding: 5 px;
+    width: 250px;
+    height: 350px;
+
 }
-.ofertas div a{
+
+.ofertas div img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.ofertas div a {
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(182, 15, 112);
     display: inline-block;
     margin-bottom: 10px;
     padding: 4px;
+    border: 2px;
 }
-.ofertas-principales div a:hover{
-    background-color: rgb(182, 15, 112) ;
-    color: white;
+
+.ofertas-principales div a:hover {
+    border: 2px solid black;
+}
+
+.carousel-item {
+    height: 400px;
+    object-fit: cover;
 }
 
 /*MAIN PRODUCTOS*/
-.tipo{
-   background-color: rgb(182, 15, 112);
+.tipo {
+    background-color: rgb(182, 15, 112);
     border: 2px solid black;
     color: white;
     margin: 10px;
@@ -100,27 +166,34 @@ main{
     text-align: center;
     font-size: 25px;
 }
-.producto h3{
+
+.producto h3 {
     padding-top: 10px;
     font-size: 25px;
 }
-.producto{
+
+.producto {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+
 }
-.producto div a{
+
+.producto div a {
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(182, 15, 112);
     display: inline-block;
     margin-bottom: 10px;
     padding: 4px;
 }
-.producto div a:hover{
-    background-color: rgb(182, 15, 112) ;
-    color: white;
+
+.producto div a:hover {
+    border: 2px solid black;
 }
-.producto div{
+
+.producto div {
     margin: 20px;
     border: 1px solid rgb(182, 15, 112);
     text-align: center;
@@ -128,78 +201,96 @@ main{
     height: 400px;
 }
 
-.producto div img{
+.producto div img {
     width: 250px;
-    height:300px ;
+    height: 300px;
     object-fit: cover;
 }
+
 /*MAIN POLITICA*/
-.saludo{
+.saludo {
     text-align: center;
+    border: 2px solid rgb(182, 15, 112);
+    margin: 20px;
 }
-.politica{
+
+.politica {
     margin: 40px;
+    padding: 20px;
+    border: 2px solid rgb(182, 15, 112);
+
 }
+
 /*MAIN TALLES*/
-.talles h2{
+
+.talles h2 {
     text-align: center;
     font-size: 25px;
-    padding-top: 15px;
+    margin: 20px;
 }
-.talles div{
+
+.talles div {
     text-align: center;
     margin: 20px;
 }
-.talles div img{
-    width: 50%;
-    height:200px ;
+
+.talles div img {
+    height: 200px;
 }
+
 /*MAIN CONTACTO*/
-.grid-contacto{
+.grid-contacto {
     margin: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
     gap: 15px;
 }
-.opinion{
+
+.opinion {
     grid-column: span 3;
     font-size: 40px;
     text-align: center;
     padding-top: 30px;
 }
-.formulario{
+
+.formulario {
     grid-row: span 2;
     padding: 10px;
 }
-.preguntas{
+
+.preguntas {
     grid-column: span 2;
     padding: 10px;
 }
-.preguntas ul li a{
+
+.preguntas ul li a {
     text-decoration: none;
     color: black;
 }
-.social{
+
+.social {
     text-align: center;
     padding-top: 15px;
     font-size: 35px;
     border-top: 0;
 }
-.social a i{
-    color:black;
+
+.social a i {
+    color: black;
     font-size: 40px;
     padding-bottom: 30px;
 }
-.formulario form{
+
+.formulario form {
     display: flex;
     flex-direction: column;
 }
 
 
 /* FOOTER */
-.pie{
-    background-color: rgb(182, 15, 112) ;
+.pie {
+    background-color: rgb(182, 15, 112);
     width: 100%;
     border: 2px solid black;
     display: flex;
@@ -207,95 +298,238 @@ main{
     padding: 10px;
     align-items: center;
 }
-.pie img{
+
+.pie img {
     width: 200px;
     height: 100px;
 }
-.pie{
+
+.pie {
     font-size: 20px;
     color: white;
 }
-.pago p{
+
+.pago p {
     margin-bottom: 0;
 }
-.redes a i{
+
+.redes a i {
     color: white;
 }
+
 /*RESPONSIVE */
-@media  screen and (max-width:940px) {
-.producto h3{
-    font-size: 20px;
-}  
+@media screen and (max-width:940px) {
+    .producto h3 {
+        font-size: 20px;
+    }
 }
-@media screen and (max-width:880px){
-.grid-contacto{
-    margin: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150px;
+
+@media screen and (max-width:880px) {
+    .grid-contacto {
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 150px;
+    }
+
+    .sobre-nosotros h2 {
+        font-size: 40px;
+    }
+
+    .sobre-nosotros p {
+        font-size: 20px;
+    }
+    .carousel-item {
+        height: 250px;
+    }
+
+    .opinion {
+        grid-column: span 1;
+    }
+
+    .formulario {
+        grid-column: span 1;
+    }
+
+    .pie {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
-.opinion{
-    grid-column: span 1;
-}
-.formulario{
-    grid-column: span 1;
-}
-.pie{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+@media screen and (max-width:780px) {
+    .sobre-nosotros h2 {
+        font-size: 35px;
+    }
+
+    .sobre-nosotros p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .sobre-nosotros a {
+        font-size: 10px;
+    }
+    .talles div img {
+    height: 150px;
 }
 
 }
-@media screen and (max-width:650px){
-.descripcion p{
-    font-size: 20px;
-}
 
-.grid-contacto{
-    margin: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px;
-}
-.grid-cuadro{
-    grid-column: span 1;
-}
-.mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-}
-@media screen and (max-width:500px) {
-.grid-contacto{
-    display: flex;
-    display: block;
-}
-.social{
-    font-size: 30px;
-    padding-bottom: 10px;
+@media screen and (max-width:710px) {
     
+
+    .sobre-nosotros img {
+        width: 300px;
+        height: 350px;
+    }
 }
-.social a i{
-    font-size: 30px;
+
+@media screen and (max-width:650px) {
+    .descripcion p {
+        font-size: 20px;
+    }
+
+    .sobre-nosotros p {
+        padding: 10px;
+    }
+
+    .sobre-nosotros img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .grid-contacto {
+        margin: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px;
+    }
+
+    .grid-cuadro {
+        grid-column: span 1;
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
-.pie{
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center; 
+
+@media screen and (max-width:575px) {
+    .sobre-nosotros h2 {
+        font-size: 30px;
+    }
+
+    .sobre-nosotros p {
+        font-size: 12px;
+    }
+
+    .sobre-nosotros img {
+        width: 225px;
+        height: 275px;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+    .talles div img {
+    height: 125px;
 }
+
+}
+
+@media screen and (max-width:500px) {
+    .sobre-nosotros h2 {
+        font-size: 25px;
+    }
+
+    .sobre-nosotros p {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .sobre-nosotros a {
+        padding: 5px;
+    }
+
+    .sobre-nosotros img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .grid-contacto {
+        display: flex;
+        display: block;
+    }
+
+    .social {
+        font-size: 30px;
+        padding-bottom: 10px;
+
+    }
+
+    .social a i {
+        font-size: 30px;
+    }
+
+    .pie {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .talles div img {
+    height: 100px;
+}
+}
+
+@media screen and (max-width:450px) {
+    .descripcion h1{
+        font-size: 60px;
+        padding: 10px;
+    }
+   .descripcion p {
+    font-size: 15px;
+    margin: 20px;
+    }
+    
+    .sobre-nosotros{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;   
+    }
+    .carousel-item {
+        height: 150px;
+    }
+    .talles div img {
+    height: 75px;
+    }
+    .talles h2 {
+    font-size: 20px;
+    }
+    .talles div h3{
+        font-size: 20px;
+    }
+    .politica {
+    margin: 20px;
+    font-size: 15px;
+
+}
+    
 }
 @media screen and (max-width:350px) {
-.social{
-    font-size: 20px;
-    padding-bottom: 10px;
-    
-}
-.social a i{
-    font-size: 30px;
-}
-    
-}
+    .social {
+        font-size: 20px;
+        padding-bottom: 10px;
 
+    }
 
+    .social a i {
+        font-size: 30px;
+    }
+}

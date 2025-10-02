@@ -1,0 +1,20 @@
+{
+  "name": "proyecto_coder",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Barbie1209/Proyecto-Ketoda#readme",
+  "bugs": {
+    "url": "https://github.com/Barbie1209/Proyecto-Ketoda/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barbie1209/Proyecto-Ketoda.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

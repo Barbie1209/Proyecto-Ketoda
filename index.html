@@ -26,14 +26,26 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="./pages/politica.html">Politicas</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                           <!-- <a class="nav-link" href="./pages/productos.html">Productos</a>-->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/talles.html">Tabla de talles</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/productos.html" hreflang="#buzos" >Todos los productos</a></li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#ofertas">Ofertas</a></li>
+                            </ul>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -53,10 +65,21 @@
 
                 Nosotras tenemos las mejores prendas para que tu estilo nunca deje de representar la KETODA que hay en
                 vos... </p>
+        </section>
+        <section class="sobre-nosotros">
+            <div>
+                <h2>Sobre Nosotras</h2>
+                <p>KETODA nace de cuatro hermanas, cuando creiamos que no podiamos con la pandemia, nos pusimos a
+                    emprender, fué así que pusimos manos a la obra. Las cuatro distintas, distinto estilos, talles y
+                    edades. Sacamos lo mejor de cada una, por eso para cada estilo tenemos lo necesario. </p>
+                <a href="">Seguinos en nuestras redes aquí.</a>
+            </div>
+            <img src="./img/local.jpg">
+
 
         </section>
-        <section class="ofertas">
-            <h2>Ofertas hasta agotar stock</h2>
+        <section id="ofertas" class="ofertas">
+            <h2>Ofertas últimas en stock</h2>
             <div class="ofertas-principales">
                 <div>
                     <img src="./img/celeste.jpeg" alt="">
@@ -68,12 +91,55 @@
                     <h3> Blusa Naranja XL</h3>
                     <a href="">Comprar</a>
                 </div>
+                <div>
+                    <img src="./img/chaqueta.webp" alt="">
+                    <h3> Chaqueta M</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img src="./img/remera.jpg" alt="">
+                    <h3> Remera S</h3>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carrusel1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carrusel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carrusel3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
     </main>
     <footer class="pie">
         <img src="./img/barra.png" alt="">
-         <div class="pago">
+        <div class="pago">
             <p>Medios de pago</p>
             <ul>
                 <li>Efectivo</li>
@@ -81,20 +147,20 @@
                 <li>Tarj. Credito y Debito</li>
             </ul>
 
-         </div>
-         <div class="redes">
-             <p>Redes sociales</p>
-             <a href=""><i class="bi bi-instagram"></i></a>
-             <a href=""><i class="bi bi-facebook"></i></a>
-             <a href=""><i class="bi bi-whatsapp"></i></a> 
-         </div>
-       
-         <div class="ubicacion">
+        </div>
+        <div class="redes">
+            <p>Redes sociales</p>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+        <div class="ubicacion">
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26224.02969212887!2d-58.811448500565994!3d-34.75549932713795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1755231209372!5m2!1ses!2sar"
-            width="200" height="90" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26224.02969212887!2d-58.811448500565994!3d-34.75549932713795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1755231209372!5m2!1ses!2sar"
+                width="200" height="90" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
