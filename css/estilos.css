@@ -1,3 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+main {
+  color: rgb(39, 37, 38);
+}
+main .descripcion {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+  padding: 30px;
+}
+main .descripcion h1 {
+  font-size: 80px;
+  display: inline-block;
+  padding-top: 30 px;
+  text-decoration: underline;
+}
+main .descripcion p {
+  font-size: 25px;
+  border: 4px solid rgb(182, 15, 112);
+  margin: 30px;
+}
+main .sobre-nosotros {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main .sobre-nosotros div {
+  text-align: center;
+}
+main .sobre-nosotros div h2 {
+  font-size: 50px;
+}
+main .sobre-nosotros div p {
+  font-size: 25px;
+  padding: 30px;
+}
+main .sobre-nosotros div a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgb(182, 15, 112);
+}
+main .sobre-nosotros img {
+  width: 350px;
+  height: 400px;
+}
+main .ofertas h2 {
+  background-color: rgb(182, 15, 112);
+  border: 2px solid black;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+main .ofertas .ofertas-principales {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+main .ofertas .ofertas-principales div {
+  font-size: 20px;
+  border: 1px solid rgb(182, 15, 112);
+  display: inline-block;
+  margin: 20px;
+  padding: 5 px;
+  width: 250px;
+  height: 350px;
+}
+main .ofertas .ofertas-principales div img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+main .ofertas .ofertas-principales div a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(182, 15, 112);
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px;
+  border: 2px;
+}
+main .ofertas .ofertas-principales div a:hover {
+  border: 2px solid black;
+}
+main .carousel-item {
+  height: 400px;
+  object-fit: cover;
+}
+main .saludo {
+  text-align: center;
+  border: 2px solid rgb(182, 15, 112);
+  margin: 20px;
+}
+main .politica {
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid rgb(182, 15, 112);
+}
+main .grid-contacto {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 150px;
+  gap: 15px;
+}
+main .grid-contacto .opinion {
+  grid-column: span 3;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+main .grid-contacto .formulario form {
+  display: flex;
+  flex-direction: column;
+}
+main .grid-contacto .formulario {
+  grid-row: span 2;
+  padding: 10px;
+}
+main .grid-contacto .preguntas {
+  grid-column: span 2;
+  padding: 10px;
+}
+main .grid-contacto .preguntas a {
+  text-decoration: none;
+  color: black;
+}
+main .grid-contacto .social {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 35px;
+  border-top: 0;
+}
+main .grid-contacto .social a {
+  color: black;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+main .tipo {
+  background-color: rgb(182, 15, 112);
+  border: 2px solid black;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+main .producto {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+main .producto div {
+  margin: 20px;
+  border: 1px solid rgb(182, 15, 112);
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+main .producto div img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+main .producto div h3 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+main .producto div a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(182, 15, 112);
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+main .producto div a:hover {
+  border: 2px solid black;
+}
+main .talles h2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+main .talles div {
+  text-align: center;
+  margin: 20px;
+}
+main .talles div img {
+  height: 200px;
+}
 
+header {
+  background-color: rgb(182, 15, 112);
+  color: white;
+  border: 2px solid black;
+}
+header .navar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+header .nav-link {
+  color: white;
+}
+header .btn {
+  color: white;
+  border: 2px solid white;
+}
+
+.pie {
+  background-color: rgb(182, 15, 112);
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.pie img {
+  width: 200px;
+  height: 100px;
+}
+.pie a {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Delius", cursive;
+}
 
 /*# sourceMappingURL=estilos.css.map */

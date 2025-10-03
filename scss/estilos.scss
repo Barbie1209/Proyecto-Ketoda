@@ -1,6 +1,4 @@
-@import "./base/funcionalidades";
-@import "./base/generales";
-@import "./base/mediaquery";
-@import "./components/footer";
-@import "./components/header";
-@import "./components/main";
+@forward 'components/main';
+@forward 'components/header';
+@forward 'components/footer';
+@forward 'base/generales';
